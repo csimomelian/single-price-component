@@ -1,72 +1,54 @@
 .card {
-
-    flex: 0 1 63.6rem;
-    min-width: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    box-shadow: var(--shadow);
-
-    &__section {
-        padding: var(--paddingY) var(--paddingY);
-        color: #fff;
-
-        &__community {
-            flex: 0 0 100%;
-            
-        }
-
-        
-
-        &__suscription,  &__info {
-            flex: 0 0 50%;
-            @media only screen and (max-width: 640px) {
-                flex: 0 0 100%;
-            }
-        }
-
-        &__suscription {
-            background-color: var(--cyan);
-
-            h2 {
-                font-weight: 400;
-            }
-
-            .price {
-                display: flex;
-                align-items: center;
-                justify-content: flex-start;
-                
-                .amount {
-                    font-size: 2.8rem;
-                    margin-right: 1.2rem;
-                    
-                }
-
-                :last-child {
-                    opacity: .7;
-                }
-            }
-
-            &__cta {
-                padding-top: 2rem;
-            }
-            
-        }
-
-        &__info {
-            background-color: var(--cyan-light);
-            p {
-                opacity: .7;
-            }
-        }
-
-    }
-
-    @media only screen and (max-width: 640px) {
-        flex-direction: column;
-    }
-
+	flex: 0 1 63.6rem;
+	min-width: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: var(--shadow);
+	&__section {
+		padding: var(--paddingY) var(--paddingY);
+		color: #fff;
+		&__community {
+			flex: 0 0 100%;
+		}
+		&__suscription,
+		&__info {
+			flex: 0 0 50%;
+			@media only screen and (max-width: 640px) {
+				flex: 0 0 100%;
+			}
+		}
+		&__suscription {
+			background-color: var(--cyan);
+			h2 {
+				font-weight: 400;
+			}
+			.price {
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				.amount {
+					font-size: 2.8rem;
+					margin-right: 1.2rem;
+				}
+				 :last-child {
+					opacity: .7;
+				}
+			}
+			&__cta {
+				padding-top: 2rem;
+			}
+		}
+		&__info {
+			background-color: var(--cyan-light);
+			p {
+				opacity: .7;
+			}
+		}
+	}
+	@media only screen and (max-width: 640px) {
+		flex-direction: column;
+	}
 }
