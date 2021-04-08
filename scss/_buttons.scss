@@ -1,0 +1,29 @@
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    padding: 1.08em;
+    font-size: 1.4rem;
+    text-decoration: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+
+    &.primary {
+        background-color: var(--bright-yellow);
+        border-radius: 5px;
+        overflow: hidden;
+        color: #fff;
+        box-shadow: var(--shadow);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &.fluid {
+        width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+
+.font-color-cyan {
+    color: var(--cyan);
+}
+
+.font-color-bright-yellow {
+    color: var(--bright-yellow);
+}
+
+.font-color-grayish-blue {
+    color: var(--grayish-blue);
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.3rem;
+    
+} 
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 400;
+}

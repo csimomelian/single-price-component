@@ -1,0 +1,27 @@
+body {
+
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
+    background-color: var(--light-gray);
+    @media only screen and (max-width: 376px) {
+        padding: 2rem;
+    }
+}
+
+.wrapper {
+
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+
+    flex: none;
+    text-align: center;
+    padding: var(--paddingY) 0;
+
+}
